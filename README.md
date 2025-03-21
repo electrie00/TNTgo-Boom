@@ -1,6 +1,6 @@
 # TNTgo-Boom
 
-**TNTgo-Boom** 是一款专为 **TNTgo 在 macOS 上使用** 而编写的软件。  
+一款为 **TNTgo 在 macOS 上使用** 而编写的软件。  
 
 ⚠ **注意：本程序仅在 Intel 芯片的 Mac 设备上测试正常，Apple Silicon 设备请自行测试。**  
 
