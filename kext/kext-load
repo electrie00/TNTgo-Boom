@@ -1,10 +1,8 @@
 #!/bin/bash
-echo "2006"|sudo -S chown -R root:wheel /Users/yang/Documents/kext/*.kext
-sudo chown -R root:wheel /Users/yang/Documents/kext/*.kext
-sudo chmod -R 755 /Users/yang/Documents/kext/*.kext
-sudo kextload -v /Users/yang/Documents/kext/VoodooI2C.kext
-sudo kextload -v /Users/yang/Documents/kext/VoodooI2CHID.kext
+cd "$(dirname "$0")"
+sudo -S chown -R root:wheel ./*.kext
+sudo chown -R root:wheel ./*.kext
+sudo chmod -R 755 *.kext
+sudo kextload -v VoodooI2C.kext
+sudo kextload -v VoodooI2CHID.kext
 exit
-
-
-
