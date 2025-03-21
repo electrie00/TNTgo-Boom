@@ -1,0 +1,7 @@
+#!/bin/bash
+osascript -e 'quit app "TNTgo Boom"'
+osascript -e 'tell application "TNTgo Boom" to activate'
+exit
+
+
+
